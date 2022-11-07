@@ -5,8 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="./assets/style/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="./assets/style/style.css">
+	<link rel="stylesheet" href="./assets/style/media.css">
 </head>
 <body>
 	<header class="header" id="header">
@@ -17,6 +18,15 @@
 				<a href="#" class="header__link">Films</a>
 				<a href="#" class="header__link">Contacts</a>
 			</nav>
+			<div class="burger">
+				<input type="checkbox" id="burger" hidden>
+				<label for="burger" class="burger__btn"></label>
+				<nav class="burger__nav">
+					<a href="#" class="burger__link">About</a>
+					<a href="#" class="burger__link">Films</a>
+					<a href="#" class="burger__link">Contacts</a>
+				</nav>
+			</div>
 		</div>
 	</header>
 	<section class="hero" id="hero">
@@ -97,9 +107,9 @@
 			</nav>
 			<nav class="footer__nav">
 				<h4 class="footer__title">Socials</h4>
-					<a href="#" class="footer__link"><i class="fa-brands fa-instagram"></i></a>
-					<a href="#" class="footer__link"><i class="fa-brands fa-telegram"></i></a>
-					<a href="#" class="footer__link"><i class="fa-brands fa-whatsapp"></i></a>
+					<a href="#" class="footer__link"><i class="fa-brands fa-instagram"></i> instagram</a>
+					<a href="#" class="footer__link"><i class="fa-brands fa-telegram"></i> telegram</a>
+					<a href="#" class="footer__link"><i class="fa-brands fa-whatsapp"></i> whatsaap</a>
 			</nav>
 		</div>
 	</footer>
