@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	<link rel="stylesheet" href="./assets/style/style.css">
 	<link rel="stylesheet" href="./assets/style/media.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 	<header class="header" id="header">
@@ -16,7 +18,7 @@
 			<nav class="header__nav">
 				<a href="#" class="header__link">About</a>
 				<a href="#" class="header__link">Films</a>
-				<a href="#" class="header__link">Contacts</a>
+				<a href="#lern" class="header__link">Contacts</a>
 			</nav>
 			<div class="burger">
 				<input type="checkbox" id="burger" hidden>
@@ -24,62 +26,62 @@
 				<nav class="burger__nav">
 					<a href="#" class="burger__link">About</a>
 					<a href="#" class="burger__link">Films</a>
-					<a href="#" class="burger__link">Contacts</a>
+					<a href="#lern " class="burger__link">Contacts</a>
 				</nav>
 			</div>
 		</div>
 	</header>
-	<section class="hero" id="hero">
+	<section class="hero" id="hero" >
 		<h1 class="hero__title">Marvel</h1>
 		<h2 class="hero__subtitle">Soon</h2>
 	</section>
 	<section class="films">
-		<div class="container films__grid">
+		<div class="container films__grid" data-aos="zoom-out-left">
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/avengers.jpg" alt="">
+					<img src="./assets/images/avengers.jpg" alt="" data-aos="zoom-in-down">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/captainmarvel.webp" alt="">
+					<img src="./assets/images/captainmarvel.webp" alt="" data-aos="fade-left">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/golder.webp" alt="">
+					<img src="./assets/images/golder.webp" alt=""data-aos="fade-up-left">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/groot.jpg" alt="">
+					<img src="./assets/images/groot.jpg" alt="" data-aos="zoom-in-left">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/iron.png" alt="">
+					<img src="./assets/images/iron.png" alt=""  data-aos="flip-left">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/ms.webp" alt="">
+					<img src="./assets/images/ms.webp" alt=""  data-aos="flip-left">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/venom.png" alt="">
+					<img src="./assets/images/venom.png" alt="" data-aos="fade-right">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
 			<div class="films__card">
 				<div class="films__img">
-					<img src="./assets/images/wakanda.jpg" alt="">
+					<img src="./assets/images/wakanda.jpg" alt="" data-aos="fade-right">
 				</div>
 				<h4 class="films__title">Films</h4>
 			</div>
@@ -109,9 +111,12 @@
 				<h4 class="footer__title">Socials</h4>
 					<a href="#" class="footer__link"><i class="fa-brands fa-instagram"></i> instagram</a>
 					<a href="#" class="footer__link"><i class="fa-brands fa-telegram"></i> telegram</a>
-					<a href="#" class="footer__link"><i class="fa-brands fa-whatsapp"></i> whatsaap</a>
+					<a href="#" class="footer__link" id="lern"><i class="fa-brands fa-whatsapp"></i> whatsaap</a>
 			</nav>
 		</div>
 	</footer>
 </body>
+<script>
+  AOS.init();
+</script>
 </html>
