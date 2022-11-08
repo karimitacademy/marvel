@@ -125,7 +125,7 @@ background-color:var(--dark);
 	justify-content: space-between;
 	align-items: center;
 	padding: 80px 0;
-	background: url("../images/bg.jfif") no-repeat center/cover fixed;
+	background: url("../images/bg.jfif") no-repeat center/cover ;
 }
 .hero::before {
 	content: "";
